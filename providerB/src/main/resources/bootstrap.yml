@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: service-b
+server:
+  port: 8800
+  address: 10.14.125.195
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:booszy@10.14.125.195:8761/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${server.address}:${server.port}
+    appname: service-b
+    metadata-map:
+      lancher: A

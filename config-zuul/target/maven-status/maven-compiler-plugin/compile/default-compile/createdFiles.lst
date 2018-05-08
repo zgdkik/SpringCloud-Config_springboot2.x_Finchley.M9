@@ -1,0 +1,4 @@
+com\yasaka\stock\filter\AccessFilter$1.class
+com\yasaka\stock\filter\RateLimitZuulFilter.class
+com\yasaka\stock\filter\AccessFilter.class
+com\yasaka\stock\ZuulApplication.class
